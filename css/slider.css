@@ -1,0 +1,122 @@
+@import '../slick/slick.css';
+@import '../slick/slick-theme.css';
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+
+.container {
+  margin-top: 170px;
+  padding: 20px 10px;
+}
+
+.slider {
+  margin-top: 60px; 
+  margin-right: 22px;
+  margin-left: 10px;
+  z-index: 17;
+  overflow: hidden;
+}
+
+.slick-active {
+  padding: 20px 0;
+}
+
+.slick-center {
+  transform: scale(1.08);
+}
+
+.slick-slide:not(.slick-active) {
+  margin: 20px 0;
+}
+
+
+
+  .slider-item {
+    position: relative;
+    background-image: url("../images/slider/bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 201px;
+    margin: 30px;
+  }
+
+
+.slider-item img {
+  position: absolute;
+  top: -30px;
+  left: 70px;
+  background-color: #FFF;
+  border-radius: 60px;
+  width: 160px;
+  height: 60px;
+  padding: 15px 20px;
+}
+
+.slider-item h4 {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2b1251;
+  color: #FFF;
+  padding: 15px 40px;
+  font-size: 18px;
+  width: 60%;
+  text-align: center;
+  font-family: mainf;
+}
+
+.item-provider {
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  background-color: #e00230;
+  color: #FFF;
+  padding: 8px 22px;
+  border-radius: 4px 4px 0px 0px;
+  font-family: mainf;
+}
+
+.left-port {
+  position: absolute;
+  background-image: url('../images/slider/left-tor.png');
+  background-repeat: no-repeat;
+  float: left;
+  width: 418px;
+  height: 439px;
+  left: 300px;
+}
+.right-port {
+  position: absolute;
+  background-image: url('../images/slider/right-tor.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 418px;
+  height: 439px;
+  right: 290px;
+}
+
+.mumia {
+  position: absolute;
+  background-image: url('../images/slider/mumia.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 166px;
+  height: 288px;
+  bottom: 15%;
+  left: 20%;
+}
+
+
+
+.bull {
+  position: absolute;
+  background-image: url('../images/slider/bull.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 469px;
+  height: 369px;
+  bottom: 22%;
+  right: 12%;
+  z-index: 28;
+}
